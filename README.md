@@ -1,18 +1,33 @@
 # PetpackFrontend
 
+Petpack social network, skg.code project
+
+Connect with friends and pets around you on PetPack.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
+
+live demo: https://stackblitz.com/github/DanielPorfiriadis/petpack-frontend
+
+## Requirements
+
+Clone petpack-backend: https://github.com/DanielPorfiriadis/petpack-backend
+
+install Angular CLI latest version
+
+run "npm install"
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve -o` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## login or register
+You can login with:
+
+Username: testuser Password: testuser1!
 
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Running unit tests
 
