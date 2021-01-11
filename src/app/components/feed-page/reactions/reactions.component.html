@@ -4,7 +4,7 @@
     <!--*ngIf="showEmojis"-->
 
     <span *ngFor="let emoji of emojiList; index as i;"   >
-      <img class="img-bar" [src]="emojiPath(emoji)" width="75" (click)="react(emoji)"> 
+      <img class="img-bar" [src]="emojiPath(emoji)" width="75" (click)="react(emoji)">
     </span>
 
   </div>
@@ -12,7 +12,7 @@
   <span  *ngIf="selectedEmote" (mouseenter)="toggleShow()">
     <img class="emoji-fade"  [ngClass]="{'emoji-fade' : emojiFade}" [src]="emojiPath(selectedEmote)"> {{emojiText}}
   </span>
-
+<div></div>
 
   <!--<span *ngIf="userReaction != null">
     | You reacted <strong>{{ emojiList[userReaction] }}</strong>
@@ -23,7 +23,7 @@
     <div  *ngFor="let emoji of emojiList; index as i;" class="reaction-counts">
 
       <span >
-        <img [src]="emojiPath(emoji)" 
+        <img [src]="emojiPath(emoji)"
           matTooltip="{{emojiName[i]}}"
           [matTooltipPosition]="position.value"
           >11
